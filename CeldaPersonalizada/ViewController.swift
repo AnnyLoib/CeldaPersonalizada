@@ -8,7 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    let alumno = ["Benja", "Pablo", "Sofia", "Rafa", "Fernanda"]
+    let promedio = [9.9, 9.8, 9.7, 9.6, 9.5]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return alumno.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let celdaAlumno = tableView.dequeueReusableCell(withIdentifier: "CellAlumno") as? celdaAlumno
+        
+        celdaAlumno?.lblAlumno.text = alumno[indexPath.row]
+        celdaAlumno?.lblPromedio.text = "\(promedio[indexPath.row])"
+        
+        return celdaAlumno!
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

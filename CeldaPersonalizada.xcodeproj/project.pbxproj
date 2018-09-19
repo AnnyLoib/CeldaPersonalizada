@@ -14,6 +14,7 @@
 		3D7B2C022151D83400DC0900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7B2C002151D83400DC0900 /* LaunchScreen.storyboard */; };
 		3D7B2C0D2151D83400DC0900 /* CeldaPersonalizadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B2C0C2151D83400DC0900 /* CeldaPersonalizadaTests.swift */; };
 		3D7B2C182151D83400DC0900 /* CeldaPersonalizadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B2C172151D83400DC0900 /* CeldaPersonalizadaUITests.swift */; };
+		3D7B2C282151DA4C00DC0900 /* celdaAlumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B2C272151DA4C00DC0900 /* celdaAlumno.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D7B2C132151D83400DC0900 /* CeldaPersonalizadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeldaPersonalizadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7B2C172151D83400DC0900 /* CeldaPersonalizadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPersonalizadaUITests.swift; sourceTree = "<group>"; };
 		3D7B2C192151D83400DC0900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7B2C272151DA4C00DC0900 /* celdaAlumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaAlumno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3D7B2BFE2151D83400DC0900 /* Assets.xcassets */,
 				3D7B2C002151D83400DC0900 /* LaunchScreen.storyboard */,
 				3D7B2C032151D83400DC0900 /* Info.plist */,
+				3D7B2C272151DA4C00DC0900 /* celdaAlumno.swift */,
 			);
 			path = CeldaPersonalizada;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				3D7B2BFA2151D83100DC0900 /* ViewController.swift in Sources */,
 				3D7B2BF82151D83100DC0900 /* AppDelegate.swift in Sources */,
+				3D7B2C282151DA4C00DC0900 /* celdaAlumno.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
